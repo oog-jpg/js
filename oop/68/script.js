@@ -72,30 +72,31 @@ class Claspet {
     funstat1(){
 
         this.stat1+=10
+        
+        if((this.stat1+=10)>100)
         this.stat1=100;
     }
     
      funstat2(){
 
-     this.stat2+=10
+     if((this.stat2+=10)>100)
         this.stat2=100;
          this.stat3-=5;
     }
     
      funstat3(){
-
-        this.stat3+=50
+        if((this.stat3+=50)>100)
         this.stat3=100;
         this.stat2-=10;
     }
     
      funstat4(){
 
-     this.stat4+=50
+     if((this.stat4+=60)>100)
         this.stat4=100;
         this.stat1-=10;
          this.stat2-=30;
-         this.stat3-=30;
+         this.stat3-=40;
     }
     
       
