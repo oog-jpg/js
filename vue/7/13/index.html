@@ -1,0 +1,18 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+	</head>
+	
+	<body>	
+	
+	<div id="d1">
+		<p v-if="age <= 18">подросток</p>
+		<p v-else-if="age >= 19 && age <=25">молодой человек</p>
+		<p v-else-if="age > 25">мужчина</p>
+        <p v-else>некорректный ввод возраста</p>
+	</div>
+	<script type="text/javascript" src="script.js"></script>
+	</body>
+	
+</html>

@@ -1,0 +1,23 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+	</head>
+	
+	<body>	
+
+	<div id="d1">
+        <p v-if="lang == 'ru'">Выберете язык</p>
+		<p v-else-if="lang =='en'">Selected language</p>
+		<p v-else-if="lang == 'de'">Wählen Sie die Sprache</p>
+        
+	<input name="r1" type="radio" v-model="lang" value="ru">ru
+	<input name="r1" type="radio" v-model="lang" value="en">en
+	<input name="r1" type="radio" v-model="lang" value="de">de
+
+	</div>
+
+	<script type="text/javascript" src="script.js"></script>
+	</body>
+	
+</html>

@@ -1,0 +1,20 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+	</head>
+	
+	<body>	
+	
+		<ul id="u1">
+			<template v-for="i in obj">
+				<li>{{ i+'='+i }}</li>
+				<li>{{ i+'='+(i+i) }}</li>
+				<li>{{ i+'='+i+i }}</li>
+			</template>
+		</ul>
+        
+	<script type="text/javascript" src="script.js"></script>
+	</body>
+	
+</html>
